@@ -9,10 +9,6 @@ pipeline {
 
       }
     }
-    stage('Print Variables') {
-      steps {
-         DBUser="demouser"
-      }
-    }
+    
   }
 }
