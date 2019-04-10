@@ -9,6 +9,13 @@ pipeline {
 
       }
     }
-    
+    stage('') {
+      steps {
+        script {
+          println "${DBUser}"
+        }
+
+      }
+    }
   }
 }
