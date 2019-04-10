@@ -11,7 +11,7 @@ pipeline {
     }
     stage('Print Variables') {
       steps {
-        echo 'Database user is ${DBUser}'
+        println "${DBUser}"
       }
     }
   }
