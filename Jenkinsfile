@@ -1,3 +1,4 @@
+def DBUser
 pipeline {
   agent any
   stages {
